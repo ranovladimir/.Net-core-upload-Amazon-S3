@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9CE7E8BC-56D6-479F-B603-9001182792A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1654DB42-0B4C-4DE2-853B-FBB7BC1B6023}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TouchCloudBackEnd", "src\TouchCloudBackEnd\TouchCloudBackEnd.xproj", "{87AA313A-1E5E-4D61-8C5E-19333C13384E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87AA313A-1E5E-4D61-8C5E-19333C13384E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87AA313A-1E5E-4D61-8C5E-19333C13384E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87AA313A-1E5E-4D61-8C5E-19333C13384E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87AA313A-1E5E-4D61-8C5E-19333C13384E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87AA313A-1E5E-4D61-8C5E-19333C13384E} = {9CE7E8BC-56D6-479F-B603-9001182792A2}
+	EndGlobalSection
+EndGlobal
